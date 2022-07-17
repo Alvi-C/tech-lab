@@ -1,7 +1,57 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
 /* Common style */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* box-sizing: ;it will helpful for input field */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header section  */
+.header-section {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 166, 0, 0.11);
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.header-title {
+    width: 50%;
+    /* parent width was 100%, now divided into 50% each*/
+}
+
+.header-title p {
+    margin: 20px 0;
+}
+
+.header-image {
+    width: 50%;
+    /* parent width was 100%, now divided into 50% each*/
+}
+
+.header-image img {
+    width: 100%;
+    /* To make the img bigger at div container size*/
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(90deg, orangered, orange);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
 }
